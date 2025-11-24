@@ -273,13 +273,8 @@ TILE_ZOOM_LEVEL=18
 MIT License - feel free to use for your projects!
 
 ## 🤝 Contributing
+ Contributions welcome!
 
-This is a hackathon/demo project. Contributions welcome!
 
-## 📧 Contact
-
-Built for GroundTruth internship application.
-
----
 
 **Made with ❤️ for location intelligence**
