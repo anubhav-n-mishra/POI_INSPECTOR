@@ -1,0 +1,68 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "target_store_001",
+        "name": "Target Store #1234",
+        "address": "123 Main Street, San Francisco, CA",
+        "category": "retail"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-122.4194, 37.7749],
+            [-122.4184, 37.7749],
+            [-122.4184, 37.7739],
+            [-122.4194, 37.7739],
+            [-122.4194, 37.7749]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "walmart_store_002",
+        "name": "Walmart Supercenter",
+        "address": "456 Oak Avenue, Los Angeles, CA",
+        "category": "retail"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-118.2437, 34.0522],
+            [-118.2427, 34.0522],
+            [-118.2427, 34.0512],
+            [-118.2437, 34.0512],
+            [-118.2437, 34.0522]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "starbucks_003",
+        "name": "Starbucks Coffee",
+        "address": "789 Pine Street, Seattle, WA",
+        "category": "food_beverage"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-122.3321, 47.6062],
+            [-122.3316, 47.6062],
+            [-122.3316, 47.6057],
+            [-122.3321, 47.6057],
+            [-122.3321, 47.6062]
+          ]
+        ]
+      }
+    }
+  ]
+}

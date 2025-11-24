@@ -1,0 +1,116 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "willis_tower",
+                "name": "Willis Tower (Sears Tower)",
+                "address": "233 S Wacker Dr, Chicago, IL 60606",
+                "category": "office",
+                "description": "Iconic skyscraper"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -87.6359,
+                            41.8789
+                        ],
+                        [
+                            -87.6357,
+                            41.8789
+                        ],
+                        [
+                            -87.6357,
+                            41.8787
+                        ],
+                        [
+                            -87.6359,
+                            41.8787
+                        ],
+                        [
+                            -87.6359,
+                            41.8789
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "navy_pier",
+                "name": "Navy Pier",
+                "address": "600 E Grand Ave, Chicago, IL 60611",
+                "category": "entertainment",
+                "description": "Lakefront entertainment venue"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -87.6050,
+                            41.8917
+                        ],
+                        [
+                            -87.6040,
+                            41.8917
+                        ],
+                        [
+                            -87.6040,
+                            41.8912
+                        ],
+                        [
+                            -87.6050,
+                            41.8912
+                        ],
+                        [
+                            -87.6050,
+                            41.8917
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "millennium_park",
+                "name": "Millennium Park",
+                "address": "201 E Randolph St, Chicago, IL 60602",
+                "category": "park",
+                "description": "Urban park with Cloud Gate"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -87.6233,
+                            41.8827
+                        ],
+                        [
+                            -87.6223,
+                            41.8827
+                        ],
+                        [
+                            -87.6223,
+                            41.8817
+                        ],
+                        [
+                            -87.6233,
+                            41.8817
+                        ],
+                        [
+                            -87.6233,
+                            41.8827
+                        ]
+                    ]
+                ]
+            }
+        }
+    ]
+}

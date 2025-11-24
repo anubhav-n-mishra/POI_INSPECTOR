@@ -1,0 +1,116 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "apple_store_fifth_ave",
+                "name": "Apple Store Fifth Avenue",
+                "address": "767 5th Ave, New York, NY 10153",
+                "category": "retail",
+                "description": "Iconic glass cube Apple Store"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -73.9739,
+                            40.7640
+                        ],
+                        [
+                            -73.9737,
+                            40.7640
+                        ],
+                        [
+                            -73.9737,
+                            40.7638
+                        ],
+                        [
+                            -73.9739,
+                            40.7638
+                        ],
+                        [
+                            -73.9739,
+                            40.7640
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "grand_central_terminal",
+                "name": "Grand Central Terminal",
+                "address": "89 E 42nd St, New York, NY 10017",
+                "category": "transportation",
+                "description": "Historic train station"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -73.9772,
+                            40.7527
+                        ],
+                        [
+                            -73.9765,
+                            40.7527
+                        ],
+                        [
+                            -73.9765,
+                            40.7522
+                        ],
+                        [
+                            -73.9772,
+                            40.7522
+                        ],
+                        [
+                            -73.9772,
+                            40.7527
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "brooklyn_bridge",
+                "name": "Brooklyn Bridge",
+                "address": "Brooklyn Bridge, New York, NY",
+                "category": "landmark",
+                "description": "Iconic suspension bridge"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -73.9969,
+                            40.7061
+                        ],
+                        [
+                            -73.9967,
+                            40.7061
+                        ],
+                        [
+                            -73.9967,
+                            40.7059
+                        ],
+                        [
+                            -73.9969,
+                            40.7059
+                        ],
+                        [
+                            -73.9969,
+                            40.7061
+                        ]
+                    ]
+                ]
+            }
+        }
+    ]
+}

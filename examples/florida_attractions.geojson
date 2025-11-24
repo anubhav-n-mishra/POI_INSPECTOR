@@ -1,0 +1,116 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "disney_world_castle",
+                "name": "Cinderella Castle",
+                "address": "Magic Kingdom, Orlando, FL",
+                "category": "entertainment",
+                "description": "Disney World iconic castle"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -81.5812,
+                            28.4197
+                        ],
+                        [
+                            -81.5810,
+                            28.4197
+                        ],
+                        [
+                            -81.5810,
+                            28.4195
+                        ],
+                        [
+                            -81.5812,
+                            28.4195
+                        ],
+                        [
+                            -81.5812,
+                            28.4197
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "universal_studios",
+                "name": "Universal Studios Orlando",
+                "address": "6000 Universal Blvd, Orlando, FL 32819",
+                "category": "entertainment",
+                "description": "Theme park"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -81.4690,
+                            28.4755
+                        ],
+                        [
+                            -81.4680,
+                            28.4755
+                        ],
+                        [
+                            -81.4680,
+                            28.4745
+                        ],
+                        [
+                            -81.4690,
+                            28.4745
+                        ],
+                        [
+                            -81.4690,
+                            28.4755
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "kennedy_space_center",
+                "name": "Kennedy Space Center",
+                "address": "SR 405, Kennedy Space Center, FL 32899",
+                "category": "museum",
+                "description": "NASA visitor complex"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -80.6520,
+                            28.5729
+                        ],
+                        [
+                            -80.6510,
+                            28.5729
+                        ],
+                        [
+                            -80.6510,
+                            28.5719
+                        ],
+                        [
+                            -80.6520,
+                            28.5719
+                        ],
+                        [
+                            -80.6520,
+                            28.5729
+                        ]
+                    ]
+                ]
+            }
+        }
+    ]
+}

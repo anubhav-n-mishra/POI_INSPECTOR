@@ -1,0 +1,116 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "empire_state_building",
+                "name": "Empire State Building",
+                "address": "20 W 34th St, New York, NY 10001",
+                "category": "landmark",
+                "description": "Iconic skyscraper - large footprint"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -73.98566,
+                            40.74844
+                        ],
+                        [
+                            -73.98566,
+                            40.74884
+                        ],
+                        [
+                            -73.98506,
+                            40.74884
+                        ],
+                        [
+                            -73.98506,
+                            40.74844
+                        ],
+                        [
+                            -73.98566,
+                            40.74844
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "one_world_trade",
+                "name": "One World Trade Center",
+                "address": "285 Fulton St, New York, NY 10007",
+                "category": "office",
+                "description": "Tallest building in Western Hemisphere"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -74.01330,
+                            40.71298
+                        ],
+                        [
+                            -74.01330,
+                            40.71348
+                        ],
+                        [
+                            -74.01270,
+                            40.71348
+                        ],
+                        [
+                            -74.01270,
+                            40.71298
+                        ],
+                        [
+                            -74.01330,
+                            40.71298
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "madison_square_garden",
+                "name": "Madison Square Garden",
+                "address": "4 Pennsylvania Plaza, New York, NY 10001",
+                "category": "entertainment",
+                "description": "Large arena - circular building"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -73.99370,
+                            40.75058
+                        ],
+                        [
+                            -73.99370,
+                            40.75118
+                        ],
+                        [
+                            -73.99290,
+                            40.75118
+                        ],
+                        [
+                            -73.99290,
+                            40.75058
+                        ],
+                        [
+                            -73.99370,
+                            40.75058
+                        ]
+                    ]
+                ]
+            }
+        }
+    ]
+}

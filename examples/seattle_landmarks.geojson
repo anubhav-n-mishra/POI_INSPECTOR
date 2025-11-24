@@ -1,0 +1,116 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "space_needle",
+                "name": "Space Needle",
+                "address": "400 Broad St, Seattle, WA 98109",
+                "category": "landmark",
+                "description": "Iconic observation tower"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -122.3493,
+                            47.6205
+                        ],
+                        [
+                            -122.3491,
+                            47.6205
+                        ],
+                        [
+                            -122.3491,
+                            47.6203
+                        ],
+                        [
+                            -122.3493,
+                            47.6203
+                        ],
+                        [
+                            -122.3493,
+                            47.6205
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "pike_place_market",
+                "name": "Pike Place Market",
+                "address": "85 Pike St, Seattle, WA 98101",
+                "category": "market",
+                "description": "Historic public market"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -122.3425,
+                            47.6097
+                        ],
+                        [
+                            -122.3420,
+                            47.6097
+                        ],
+                        [
+                            -122.3420,
+                            47.6092
+                        ],
+                        [
+                            -122.3425,
+                            47.6092
+                        ],
+                        [
+                            -122.3425,
+                            47.6097
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "amazon_spheres",
+                "name": "Amazon Spheres",
+                "address": "2111 7th Ave, Seattle, WA 98121",
+                "category": "office",
+                "description": "Amazon office with glass domes"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -122.3368,
+                            47.6155
+                        ],
+                        [
+                            -122.3365,
+                            47.6155
+                        ],
+                        [
+                            -122.3365,
+                            47.6152
+                        ],
+                        [
+                            -122.3368,
+                            47.6152
+                        ],
+                        [
+                            -122.3368,
+                            47.6155
+                        ]
+                    ]
+                ]
+            }
+        }
+    ]
+}

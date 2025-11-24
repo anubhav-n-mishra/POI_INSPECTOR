@@ -1,0 +1,116 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "google_hq",
+                "name": "Googleplex",
+                "address": "1600 Amphitheatre Parkway, Mountain View, CA",
+                "category": "office",
+                "description": "Google headquarters"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -122.0850,
+                            37.4220
+                        ],
+                        [
+                            -122.0840,
+                            37.4220
+                        ],
+                        [
+                            -122.0840,
+                            37.4210
+                        ],
+                        [
+                            -122.0850,
+                            37.4210
+                        ],
+                        [
+                            -122.0850,
+                            37.4220
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "apple_park",
+                "name": "Apple Park",
+                "address": "One Apple Park Way, Cupertino, CA",
+                "category": "office",
+                "description": "Apple headquarters - circular building"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -122.0090,
+                            37.3349
+                        ],
+                        [
+                            -122.0080,
+                            37.3349
+                        ],
+                        [
+                            -122.0080,
+                            37.3339
+                        ],
+                        [
+                            -122.0090,
+                            37.3339
+                        ],
+                        [
+                            -122.0090,
+                            37.3349
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "tesla_factory",
+                "name": "Tesla Factory",
+                "address": "45500 Fremont Blvd, Fremont, CA",
+                "category": "industrial",
+                "description": "Tesla manufacturing facility"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -121.9335,
+                            37.4935
+                        ],
+                        [
+                            -121.9325,
+                            37.4935
+                        ],
+                        [
+                            -121.9325,
+                            37.4925
+                        ],
+                        [
+                            -121.9335,
+                            37.4925
+                        ],
+                        [
+                            -121.9335,
+                            37.4935
+                        ]
+                    ]
+                ]
+            }
+        }
+    ]
+}

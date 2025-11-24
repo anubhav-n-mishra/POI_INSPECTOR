@@ -1,0 +1,116 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "test_perfect_match",
+                "name": "Perfect Match Test",
+                "address": "Test Location",
+                "category": "test",
+                "description": "Polygon designed to match building perfectly"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -122.0842,
+                            37.4220
+                        ],
+                        [
+                            -122.0842,
+                            37.4215
+                        ],
+                        [
+                            -122.0837,
+                            37.4215
+                        ],
+                        [
+                            -122.0837,
+                            37.4220
+                        ],
+                        [
+                            -122.0842,
+                            37.4220
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "test_slight_leakage",
+                "name": "Slight Leakage Test",
+                "address": "Test Location",
+                "category": "test",
+                "description": "Polygon slightly larger than building"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -122.0845,
+                            37.4222
+                        ],
+                        [
+                            -122.0845,
+                            37.4213
+                        ],
+                        [
+                            -122.0835,
+                            37.4213
+                        ],
+                        [
+                            -122.0835,
+                            37.4222
+                        ],
+                        [
+                            -122.0845,
+                            37.4222
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "test_poor_coverage",
+                "name": "Poor Coverage Test",
+                "address": "Test Location",
+                "category": "test",
+                "description": "Polygon much smaller than building"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -122.0841,
+                            37.4218
+                        ],
+                        [
+                            -122.0841,
+                            37.4217
+                        ],
+                        [
+                            -122.0840,
+                            37.4217
+                        ],
+                        [
+                            -122.0840,
+                            37.4218
+                        ],
+                        [
+                            -122.0841,
+                            37.4218
+                        ]
+                    ]
+                ]
+            }
+        }
+    ]
+}
