@@ -278,8 +278,14 @@ This is a hackathon/demo project. Contributions welcome!
 
 ## 📧 Contact
 
+Created and maintained by **Anubhav Mishra**.
+
+- GitHub: https://github.com/anubhav-n-mishra
+- Portfolio: https://linkedin.com/in/anubhav-mishra0
+- Website: https://mishraanubhav.me
+
 Built for GroundTruth internship application.
 
 ---
 
-**Made with ❤️ for location intelligence**
+**Made by Anubhav Mishra · Portfolio: https://linkedin.com/in/anubhav-mishra0 · Website: https://mishraanubhav.me**

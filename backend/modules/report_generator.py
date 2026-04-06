@@ -20,6 +20,10 @@ from config import settings
 
 class ReportGenerator:
     """Generates PDF reports for POI analysis."""
+    CREATOR_NAME = "Anubhav Mishra"
+    CREATOR_GITHUB = "https://github.com/anubhav-n-mishra"
+    CREATOR_PORTFOLIO = "https://linkedin.com/in/anubhav-mishra0"
+    CREATOR_WEBSITE = "https://mishraanubhav.me"
     
     def __init__(self):
         self.reports_dir = settings.reports_dir
@@ -111,14 +115,49 @@ class ReportGenerator:
         # Footer
         story.append(Spacer(1, 0.5*inch))
         story.append(Paragraph(
-            f"Generated on {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} | POI Blueprint Quality Inspector",
+            (
+                f"Generated on {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} | "
+                f"POI Blueprint Quality Inspector | "
+                f"Made by {self.CREATOR_NAME} | Portfolio: {self.CREATOR_PORTFOLIO} | Website: {self.CREATOR_WEBSITE}"
+            ),
             self.styles['MetricLabel']
         ))
         
         # Build PDF
-        doc.build(story)
+        doc.build(story, onFirstPage=self._draw_watermark, onLaterPages=self._draw_watermark)
         
         return output_path
+
+    def _draw_watermark(self, canvas, doc):
+        """Draw creator watermark on every report page."""
+        canvas.saveState()
+        width, height = letter
+
+        # ReportLab alpha support can vary by backend; fallback safely if unavailable.
+        try:
+            canvas.setFillAlpha(0.09)
+        except Exception:
+            pass
+
+        canvas.setFillColor(colors.HexColor('#1f2937'))
+        canvas.setFont('Helvetica-Bold', 30)
+        canvas.translate(width / 2, height / 2)
+        canvas.rotate(28)
+        canvas.drawCentredString(
+            0,
+            0,
+            f"Made by {self.CREATOR_NAME} | {self.CREATOR_WEBSITE}"
+        )
+
+        # Reset transforms for a clean footer attribution line.
+        canvas.restoreState()
+        canvas.saveState()
+        canvas.setFillColor(colors.HexColor('#6b7280'))
+        canvas.setFont('Helvetica', 8)
+        canvas.drawString(0.75 * inch, 0.45 * inch, f"GitHub: {self.CREATOR_GITHUB}")
+        canvas.drawRightString(width - 0.75 * inch, 0.45 * inch, f"Portfolio: {self.CREATOR_PORTFOLIO}")
+        canvas.drawRightString(width - 0.75 * inch, 0.32 * inch, f"Website: {self.CREATOR_WEBSITE}")
+        canvas.restoreState()
     
     def _build_poi_info_section(self, data: Dict) -> List:
         """Build POI information section."""
