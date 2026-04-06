@@ -273,8 +273,7 @@ TILE_ZOOM_LEVEL=18
 MIT License - feel free to use for your projects!
 
 ## 🤝 Contributing
-
-This is a hackathon/demo project. Contributions welcome!
+ Contributions welcome!
 
 ## 📧 Contact
 
